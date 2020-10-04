@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM alpine
 
 ENV PORT    3000
 
