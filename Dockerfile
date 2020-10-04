@@ -3,7 +3,7 @@ FROM ubuntu:xenial
 ENV PORT    3000
 
 ADD main_worker /main_worker
-ADD world /world
+ADD start /start
 RUN chmod +x /main_worker
-RUN chmod +x /world
-CMD ./world
+RUN chmod +x /start
+CMD ./start
